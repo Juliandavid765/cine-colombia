@@ -13,3 +13,17 @@ contenedor.addEventListener("click", function(event){
         }
     }   
 })
+let etiquetaBoton=document.getElementById("boton")
+etiquetaBoton.addEventListener("click" , escuchar)
+function escuchar(){
+    event.preventDefault()
+    console.log("hizo click")
+    let pelicula=document.getElementById("pelicula").value
+    console.log (pelicula)
+    let asiento=document.getElementById("asiento").value
+    console.log (asiento)
+    let cantidad=document.getElementById("cantidad").value
+    console.log(cantidad)
+    alert("su pelicula es " + pelicula)
+    alert("el precio total es " + (asiento*cantidad))
+}

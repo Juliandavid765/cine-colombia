@@ -21,6 +21,11 @@
                     <a class="nav-link active" aria-current="page" href="#">Cine Colombia</a>
                   </li>
                 </ul>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Ir a Pagina Principal</a>
+                    </li>
+                  </ul>
                 <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Search</button>
@@ -93,7 +98,7 @@
                 <div class="col-1">
                     <img src="img/silla.png" alt="silla" class="w-100 img-fluid"> c3
                 </div>
-                <div class="col-1">
+                <div class="col-1 ms-5">
                     <img src="img/silla.png" alt="silla" class="w-100 img-fluid">c4
                 </div>
                 <div class="col-1">
@@ -113,7 +118,7 @@
                 <div class="col-1">
                     <img src="img/silla.png" alt="silla" class="w-100 img-fluid">d3
                 </div>
-                <div class="col-1">
+                <div class="col-1 ms-5">
                     <img src="img/silla.png" alt="silla" class="w-100 img-fluid">d4
                 </div>
                 <div class="col-1">
@@ -132,8 +137,8 @@
                             Compra de Peliculas
                         </h1>
                         <select id="pelicula" class="form-select mb-3 mt-5" aria-label="Default select example">
-                            <option selected>Pelicula</option>
-                            <option value="batman">Batman</option>
+                            <option selected>Elige tu Pelicula</option>
+                            <option value="Batman">Batman</option>
                             <option value="Uncharted">Uncharted: Fuera del Mapa</option>
                             <option value="el justiciero">El justiciero</option>
                             <option value="belfast">Belfast</option>
@@ -146,12 +151,12 @@
                         </select>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Cantidad</label>
-                            <input type="number" class="form-control" id="Edad" aria-describedby="emailHelp">
+                            <input type="number" class="form-control" id="cantidad" aria-describedby="emailHelp">
                         </div>
                         <select id="asiento" class="form-select mb-3 mt-5" aria-label="Default select example">
                             <option selected>Asiento</option>
-                            <option value="preferencia">preferencia</option>
-                            <option value="general">general</option>
+                            <option value="10000">preferencia</option>
+                            <option value="6000">general</option>
                         </select>
                         <button type="submit" class="btn btn-primary w-100 mt-3" id="boton">Envio</button>
                     </form>
